@@ -1,0 +1,41 @@
+body{
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #120000, #2b0000, #5c0000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+form{
+    position: relative;    
+    background: rgba(15, 15, 15, 0.9);
+    border: 2px solid #ffffff;
+    padding: 40px;
+    width: 420px;
+    border-radius: 6px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+form{
+    color: #ffffff;
+}
+
+/* BOTÃO */
+input[type="submit"]{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+div{
+    color:#ffffff;
+}
