@@ -87,7 +87,7 @@ namespace ATV.Controllers
             }
             _context.Tarefas.Add(tarefa);
             _context.SaveChanges();
-            return Ok(tarefa);
+            return Ok("Tarefa cadastrada com sucesso!");
         }
         
 
