@@ -10,12 +10,18 @@
     <div class="container">
         <h2>Cadastrar Tarefa</h2>
         <form id="cadastroTarefa">          
-            <label for="descricao">Descrição: </label> <br>
-            <input type="text" name="descricao" id="descricao"> <br> <br>
-            <label for="status">Status: </label> <br>
-            <input type="status" name="status" id="status"> <br> <br>
-            <input type="submit" value="CadastrarTarefa">
+            <label for="descricao">Descrição: </label>
+            <input type="text" name="descricao" id="descricao">
+            <label for="status">Status: </label>
+            <input type="status" name="status" id="status">
+            <input type="submit" value="Cadastrar tarefa">
         </form>
+        <a href="index.html" class="btn linkBtn">
+            Consultar tarefas
+        </a>
+        <button id="Logout">
+            Logout
+        </button> 
         <div id="respostaTarefa"></div>
     </div>
     <script src="scriptTarefa.js"></script>
