@@ -3,8 +3,6 @@ const form = document.getElementById("cadastroCliente");
 const respostaEl = document.getElementById("respostaCliente");
 form.addEventListener("submit", async (event) => {
     event.preventDefault();
-    // PEGA OS VALORES DOS INPUTS
-    const sexoSelecionado = document.querySelector('input[name="sexo"]:checked');
     try {
         const resposta = await fetch("http://localhost:5140/Cliente/cadastrar", {
             method: "POST",
